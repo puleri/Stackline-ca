@@ -8,13 +8,12 @@
     "github": "https://github.com/puleri",
     "website": "https://mattpuleri.com"
   },
-  "homepage": "https://puleri.github.io/stackline",
+  "homepage": "https://mattpuleri.com/Stackline-ca",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "@fortawesome/react-fontawesome": "0.1.0-11",
     "axios": "^0.27.2",
-    "env-cmd": "^10.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
@@ -24,7 +23,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "env-cmd -f ./.env react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
