@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // URL put in myJSON API for testing purposes
-const url = "https://jsonkeeper.com/b/TYZP";
+const url = "https://myjson.dit.upm.es/api/bins/dr7j";
+
 export const sortBy = key => {
   return {
     type: "SORT",
