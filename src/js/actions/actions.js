@@ -1,4 +1,3 @@
-import { SORT, FETCH } from "../../constants";
 import axios from "axios";
 
 // URL put in myJSON API for testing purposes
@@ -6,14 +5,14 @@ const url = "http://myjson.dit.upm.es/api/bins/dr7j";
 
 export const sortBy = key => {
   return {
-    type: SORT,
+    type: "SORT",
     key
   };
 };
 
 export const fetchAction = data => {
   return {
-    type: FETCH,
+    type: "FETCH",
     data
   };
 };
