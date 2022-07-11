@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./css/App.css";
 
 import ProductContainer from "./js/containers/ProductContainer";
@@ -6,8 +6,8 @@ import TableContainer from "./js/containers/TableContainer";
 import ChartContainer from "./js/containers/ChartContainer";
 import Header from "./js/components/Header";
 
-class App extends Component {
-  render() {
+export default function App() {
+
     return (
       <div className="grid-container">
         <div className="product-container">
@@ -24,7 +24,5 @@ class App extends Component {
         </div>
       </div>
     );
-  }
+  
 }
-
-export default App;
