@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Stackline-ca/static/css/main.6a4a2dc6.css",
-    "main.js": "/Stackline-ca/static/js/main.5c306665.js",
+    "main.js": "/Stackline-ca/static/js/main.cd8f8cd9.js",
     "index.html": "/Stackline-ca/index.html",
     "main.6a4a2dc6.css.map": "/Stackline-ca/static/css/main.6a4a2dc6.css.map",
-    "main.5c306665.js.map": "/Stackline-ca/static/js/main.5c306665.js.map"
+    "main.cd8f8cd9.js.map": "/Stackline-ca/static/js/main.cd8f8cd9.js.map"
   },
   "entrypoints": [
     "static/css/main.6a4a2dc6.css",
-    "static/js/main.5c306665.js"
+    "static/js/main.cd8f8cd9.js"
   ]
 }
