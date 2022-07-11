@@ -12,11 +12,6 @@ Run the app
 npm start
 ```
 
-Run unit tests
-
-```
-npm test
-```
 
 ## With more time...
 Problems I ran into so far were mostly regarding formatting the rechart. With more time I would look to solve the duplicate month bug with a state hook that stores months used and then checks new ones against ones already used. I would use the tickFormatter API in recharts to solve this.
